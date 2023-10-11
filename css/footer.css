@@ -1,0 +1,59 @@
+:root {
+    --amarillo: rgb(241, 199, 115)
+}
+
+
+
+
+* {
+    /*    background-color:wheat ; */
+    /*     border: 1px red solid; */
+    margin: 0;
+    padding: 0;
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+li {
+    list-style: none;
+}
+
+.foto1 {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    border-radius: 10%;
+    padding: 10px;
+
+}
+
+.footer {
+    background-color: var(--amarillo);
+    
+
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.titulofooter {
+    text-align: center;
+    background-color: rosybrown;
+    border-radius: 10px;
+}
+
+.columnas {
+    border: 1px grey solid;
+    border-radius: 10px;
+}

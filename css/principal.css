@@ -1,0 +1,52 @@
+:root {
+    --amarillo: rgb(241, 199, 115) --naranja: rgb(249, 157, 120)
+}
+
+.container-nav {
+    background-color: var(--amarillo);
+}
+
+.container-icon {
+    display: flex;
+    align-items: center;
+}
+
+.container-carrusel {
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.container-carrusel img {
+    border-radius: 10px;
+}
+
+.container-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+.productos {
+    margin: 20px;
+}
+
+.promo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-login {
+    margin-bottom: 500px;
+}
+
+.container-registro {
+    margin-bottom: 200px;
+}
+
+.naranja {
+    background: var(--naranja);
+}

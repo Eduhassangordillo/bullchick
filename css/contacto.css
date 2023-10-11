@@ -1,0 +1,40 @@
+.contenedor {
+    margin: 0;
+    padding: 50PX;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    justify-content: space-around;
+    background-color: rgb(212, 212, 212);
+
+}
+
+.titulo {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.titulo2 {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding: 10px;
+    border: 1px red solid;
+    border-radius: 10px;
+}
+
+.maps {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(212, 212, 212);
+}
+
+.form-label {
+    width: 100%;
+}
